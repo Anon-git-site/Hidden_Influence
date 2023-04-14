@@ -17,7 +17,7 @@ Pre-trained image models are located in the models folder under the CIFAR-10, Pl
 
 ### Tabular data
 
-The logistic regression (LG) and support vector machine (SVM) training and evaluation models were drawn from the SKLEARN library using default settings: https://scikit-learn.org/stable/modules/svm.html and https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html.  The training and test data, used for 5-way cross-validation, for these models can be found at: 
+The logistic regression (LG) and support vector machine (SVM) training and evaluation models were drawn from the SKLEARN library using default settings: https://scikit-learn.org/stable/modules/svm.html and https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html.  The training and test data, used for 5-way cross-validation, for these models can be found at: https://drive.google.com/file/d/1M9xgweB3IcPh1k2WlRYhJtURsc5YOtDg/view?usp=share_link.
 
 Implementations of SMOTE and ADASYN can be found at: https://github.com/analyticalmindsltd/smote_variants.
 
