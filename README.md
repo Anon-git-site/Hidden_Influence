@@ -1,7 +1,9 @@
 # Hidden_Influence
 This repository supports the paper, "The Hidden Influence of Linearity & Magnitude on Supervised Classification."
 
-For a list of requirements, please see requirements.txt.
+For a list of requirements, please see requirements.txt. 
+
+## Base training and evaluation code & data
 
 The base training and evaluation code for CIFAR-10 is located in cifar_train.py. This file can be modified to train and evaluate INaturalist and Places. For these datasets, we used 40 training epochs instead of 200 (CIFAR-10); and a Resnet-56 vs. a Resnet-32 architectures. The Resnet modules are contained in resnet_cifar.py. 
 
