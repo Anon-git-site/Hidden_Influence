@@ -3,7 +3,7 @@ This repository supports the paper, "The Hidden Influence of Linearity & Magnitu
 
 For a list of requirements, please see requirements.txt.
 
-The base training and evaluation code for CIFAR-10 is located in XX. This file can be modified to train and evaluate INaturalist and Places. For these datasets, we used 40 training epochs instead of 200 (CIFAR-10); and a Resnet-56 vs. a Resnet-32 architectures. The Resnet modules are contained in XX. 
+The base training and evaluation code for CIFAR-10 is located in cifar_train.py. This file can be modified to train and evaluate INaturalist and Places. For these datasets, we used 40 training epochs instead of 200 (CIFAR-10); and a Resnet-56 vs. a Resnet-32 architectures. The Resnet modules are contained in resnet_cifar.py. 
 
 The INaturalist data can be found at https://paperswithcode.com/dataset/inaturalist and Places at http://places2.csail.mit.edu/. The imbalanced training and validation files are located in the data folder.
 
