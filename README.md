@@ -9,6 +9,6 @@ The INaturalist data can be found at https://paperswithcode.com/dataset/inatural
 
 The source code for REMIX is available at https://github.com/cbellinger27/remix; and EOS at https://github.com/dd1github/EOS.
 
-Pre-trained models are located in the models folder.  
+Pre-trained image models are located in the models folder.  There are 3 versions of each method because results were averaged over 3 cuts of the data.
 
 Implementations of SMOTE and ADASYN can be found at: https://github.com/analyticalmindsltd/smote_variants.
