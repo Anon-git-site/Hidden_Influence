@@ -5,7 +5,7 @@ For a list of requirements, please see requirements.txt.
 
 The base training and evaluation code for CIFAR-10 is located in cifar_train.py. This file can be modified to train and evaluate INaturalist and Places. For these datasets, we used 40 training epochs instead of 200 (CIFAR-10); and a Resnet-56 vs. a Resnet-32 architectures. The Resnet modules are contained in resnet_cifar.py. 
 
-The INaturalist data can be found at https://paperswithcode.com/dataset/inaturalist and Places at http://places2.csail.mit.edu/. For CIFAR-10, the imbalanced training and validation files are generated in cifar_train.py and for Places and INaturalist, they are located in the data folder.
+The INaturalist data can be found at https://github.com/visipedia/inat_comp/tree/master/2017 and is subject to a separate terms of use and license: https://www.inaturalist.org/pages/terms. The Places dataset is located at http://places2.csail.mit.edu/ and is subject to a Creative Common License (Attribution CC BY) license. For CIFAR-10, the imbalanced training and validation files are generated in cifar_train.py and for Places and INaturalist, they are located in the data folder. The CiFAR-10 data can be automatically downloaded via Torchvision. 
 
 The source code for REMIX is available at https://github.com/cbellinger27/remix; and EOS at https://github.com/dd1github/EOS.
 
