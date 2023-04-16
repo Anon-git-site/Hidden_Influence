@@ -11,7 +11,7 @@ The base training and evaluation code for CIFAR-10 is located in cifar_train.py.
 
 The INaturalist data can be found at https://github.com/visipedia/inat_comp/tree/master/2017 and is subject to a separate terms of use and license: https://www.inaturalist.org/pages/terms. The Places dataset is located at http://places2.csail.mit.edu/ and is subject to a Creative Common License (Attribution CC BY) license. For CIFAR-10, the imbalanced training and validation files are generated in cifar_train.py and for Places and INaturalist, they are located in the data folder. The CIFAR-10 data can be automatically downloaded via Torchvision. 
 
-The source code for REMIX is available at https://github.com/cbellinger27/remix; and EOS at https://github.com/dd1github/EOS.
+The source code for REMIX is available at https://github.com/cbellinger27/remix; and EOS at https://github.com/dd1github/EOS. DSM follows the same basic training and evaluation procedure as EOS, except that it incorporates SMOTE instead of nearest enemy class feature manipulation - see https://arxiv.org/pdf/2304.05895.pdf.
 
 Pre-trained image models are located in the models folder under the CIFAR-10, Places and INaturalist sub-folders. There are 3 versions for each method because results were averaged over 3 cuts of the data.
 
