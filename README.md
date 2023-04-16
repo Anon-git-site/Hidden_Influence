@@ -15,6 +15,8 @@ The source code for REMIX is available at https://github.com/cbellinger27/remix;
 
 Pre-trained image models are located in the models folder under the CIFAR-10, Places and INaturalist sub-folders. There are 3 versions for each method because results were averaged over 3 cuts of the data.
 
+The cifar_FE.py and resnet_cifar_FE.py modules provide mechanism for extracting feature embeddings (FE) from CNN architectures, which are, in turn, used to generate classification embeddings (CE).
+
 ### Tabular data
 
 The logistic regression (LG) and support vector machine (SVM) training and evaluation models were drawn from the SKLEARN library using default settings: https://scikit-learn.org/stable/modules/svm.html and https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html.  The training and test data, used for 5-way cross-validation, for these models can be found at: https://drive.google.com/file/d/1M9xgweB3IcPh1k2WlRYhJtURsc5YOtDg/view?usp=share_link.
