@@ -21,7 +21,10 @@ The logistic regression (LG) and support vector machine (SVM) training and evalu
 
 Implementations of SMOTE and ADASYN can be found at: https://github.com/analyticalmindsltd/smote_variants.
 
-## Relatationship of Frequency and Magnitude 
+## RQ1: Number of Features (CE) Required to Predict an Instance
+Additional details regarding the methodology for computing the classification embeddings (CE), the percentage of CE as a ratio of the model classification layer dimension, and the average magnitude of CE can be found in XX.
+
+## RQ3: Relatationship of Frequency and Magnitude 
 The following folders support the relationship of frequency and magnitude of latent features discussion in the paper.
 The frequency folder contains csv files for 8 datasets with classification embedding (CE) frequencies. The csv file rows correspond to classes and the columns correspond to the frequency with which a top-K feature index appears in all instances in a class. The CE columns are sorted based on the CE index position that occurs most frequently in a class. Hence, column 0 corresponds to the frequency of the CE index that occurs most often in the set of top-K CE that are required to predict an individual instance of a class.
 
