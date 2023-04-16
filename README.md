@@ -26,6 +26,10 @@ Implementations of SMOTE and ADASYN can be found at: https://github.com/analytic
 ## RQ1: Number of Features (CE) Required to Predict
 This section provides additional details regarding the methodology for computing the classification embeddings (CE), the percentage of CE as a ratio of the model classification layer dimension, and the average magnitude of CE. The module cif_CE_mag_all.py illustrates how CE are extracted from pre-trained models for CIFAR-10. This method can be adapted for Places and INaturalist; and the same basic methodology applies for tabular data. All pre-trained CNN models can be found in the models folder. The output of cif_CE_mag_all.py is a .csv file that contains the following information for each instance in a dataset: target class, predicted class, class instance index, length of CE (i.e., the number of CE required to predict an instance), the index of the CE in the classification embedding layer dimension, and the magnitude of the CE. Sample output is contained in the folder CE_sample. This output is then consumed by cif_CE_info.py to generate summary CE information for each dataset and class for purposes of the figures displayed in the paper.
 
+## RQ2: Importance of Latent Feature (CE) Magnitude for Prediction during Model Inference
+This section provides additional details regarding the importance of latent feature (CE) magnitude for prediction during model inference.
+
+
 ## RQ3: Relatationship of Frequency and Magnitude 
 The following folders support the relationship of frequency and magnitude of latent features discussion in the paper.
 The frequency folder contains csv files for 8 datasets with classification embedding (CE) frequencies. The csv file rows correspond to classes and the columns correspond to the frequency with which a top-K feature index appears in all instances in a class. The CE columns are sorted based on the CE index position that occurs most frequently in a class. Hence, column 0 corresponds to the frequency of the CE index that occurs most often in the set of top-K CE that are required to predict an individual instance of a class.
