@@ -28,7 +28,7 @@ This section provides additional details regarding the methodology for computing
 
 ## RQ2: Importance of Latent Feature (CE) Magnitude for Prediction during Model Inference
 This section provides additional details regarding the importance of latent feature (CE) magnitude for prediction during model inference.
-
+The data can be downloaded from: https://drive.google.com/file/d/1eRVvbvamcR_lK_HuakKKoPYahRsQEgFg/view?usp=share_link.
 
 ## RQ3: Relatationship of Frequency and Magnitude 
 The following folders support the relationship of frequency and magnitude of latent features discussion in the paper.
